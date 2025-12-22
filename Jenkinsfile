@@ -5,7 +5,7 @@ pipeline {
         maven 'maven'
     }
     
-    trigger {
+    triggers {
         githubPush()
     }
 
@@ -26,3 +26,4 @@ pipeline {
        
    
 }
+
